@@ -1,0 +1,1 @@
+include ':ActivityLifeCycle', ':TaskTest', ':UITest', ':current', ':libSet', ':listviewtest', ':chat'

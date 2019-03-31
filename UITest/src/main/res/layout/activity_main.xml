@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爱好：" />
+
+        <CheckBox
+            android:id="@+id/cb_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="读书" />
+
+        <CheckBox
+            android:id="@+id/cb_travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旅游" />
+
+        <CheckBox
+            android:id="@+id/cb_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跑步" />
+
+        <Button
+            android:id="@+id/btn_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/btn_notall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全不选" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取内容" />
+
+        <TextView
+            android:id="@+id/show_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="显示选中的结果" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择性别：" />
+
+        <RadioGroup
+            android:id="@+id/rg_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="male" />
+
+            <RadioButton
+                android:id="@+id/rb_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="female" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/image_happy"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/happy" />
+
+        <ToggleButton
+            android:id="@+id/tb_happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="@color/colorAccent"
+            android:textOff="不开心"
+            android:textOn="开心" />
+
+
+</LinearLayout>
+</ScrollView>
